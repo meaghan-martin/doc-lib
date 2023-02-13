@@ -1,3 +1,4 @@
+import React from 'react';
 import {FilterButton} from './FilterButton';
 export const FilterList = ({tags, filterFunction}) => {
   const sortedTags = tags.sort();
