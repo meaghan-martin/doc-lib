@@ -10,6 +10,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-table": "^7.8.0",
+    "serve-build": "^0.1.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -17,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:widget": "parcel build src/index.js --no-source-maps -d docs"
+    "build:widget": "parcel build src/index.js --no-source-maps -d docs",
+    "serve": "serve-build"
   },
   "eslintConfig": {
     "extends": [

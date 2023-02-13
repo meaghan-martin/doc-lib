@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.library {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0 140px;
+
+}
+.filterListContainer{
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  padding-top: 30px;
+  width: 40%;
+}
+
+.filterListTitle {
+  font-family: 'Alice';
+  font-size: 20px;
+  font-weight: 600;
+  color: #00106d;
+  line-height: 20px;
+  padding-bottom: 4px;
+
+}
+
+button {
+  font-family: 'Manrope';
+  background-color: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #00106d;
+  font-size: 14px;
+}
+button:hover {
+  color: #0018a8;
+  text-decoration: underline;
+}
+table {
+  width: 100%;
+  padding-right: 140px;
+}
+tr {
+  width: 100%;
+}
+td {
+  text-align: left;
+  border-bottom: .5px solid #e3e7ff;
+  width: 100%;
+}
+
+.DocTable {
+  width: 70%;
+  padding-top: 50px;
+}
+
+.DocLink {
+    color: #00106d;
+    font-family: 'Manrope';
+    font-size: 14px;
+    text-align: left;
+}
+.TitleContainer {
+  width: 100%;
+  background-color: #ffefcd
+}
+
+.title {
+  text-align: left;
+  margin-left: 150px;
+  font-size:32px;
+  color: #000d5a;
+  padding: 8px 0;
+  font-family: 'Alice';
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*# sourceMappingURL=/src.7ed060e2.css.map */
