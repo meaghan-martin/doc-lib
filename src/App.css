@@ -40,7 +40,7 @@
 
 }
 
-filterButton {
+button {
   font-family: 'Manrope';
   background-color: none;
   background: none;
@@ -49,9 +49,11 @@ filterButton {
   color: #00106d;
   font-size: 14px;
 }
-filterButton:hover {
+button:hover {
   color: #0018a8;
   text-decoration: underline;
+  background: none !important;
+  border: none !important;
 }
 table {
   width: 100%;
