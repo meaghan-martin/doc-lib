@@ -40,7 +40,7 @@
 
 }
 
-button {
+filterButton {
   font-family: 'Manrope';
   background-color: none;
   background: none;
@@ -49,7 +49,7 @@ button {
   color: #00106d;
   font-size: 14px;
 }
-button:hover {
+filterButton:hover {
   color: #0018a8;
   text-decoration: underline;
 }
@@ -72,10 +72,13 @@ td {
 }
 
 .DocLink {
-    color: #00106d;
-    font-family: 'Manrope';
-    font-size: 14px;
-    text-align: left;
+  color: #00106d;
+  font-family: 'Manrope';
+  font-size: 14px;
+  text-align: left;
+}
+.DocLink:hover {
+  color: #00106d;
 }
 .TitleContainer {
   width: 100%;
